@@ -4,10 +4,15 @@
 
 .container {
     background: yellow;
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .balloon {
-    width: 40px;
+    width: 120px;
     height: 40px;
-    border: 1px dashed;
+    border: 1px dashed red;
+    flex-grow: 1;
 }
