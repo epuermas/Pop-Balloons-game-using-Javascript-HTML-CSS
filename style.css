@@ -12,7 +12,7 @@
 
 .balloon {
     width: 120px;
-    height: 40px;
+    height: 60px;
     border: 1px dashed red;
     flex-grow: 1;
 }
