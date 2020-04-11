@@ -2,8 +2,6 @@
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/4GeeksAcademy/html-hello.git)
 
-The most basic boilerplate for any 4Geeks Academy Student using the [gitpod.io](gitpod.io) coding editor.
-
 [![How to open html/css preview of my project in gitpod](https://ucarecdn.com/573d0bef-9c8c-48dd-a6ef-401972dff96d/)](https://youtu.be/dfbDCMu_p-0)
 
 ## What to do next?
