@@ -19,5 +19,17 @@
     opacity: .9;
     border-radius: 50%;
     height: 50px;
-    cursor: pointer; 
+    cursor: pointer;
+    animation: float 6s ease-in-out infinite; 
+}
+.balloon:after {
+    position: absolute;
+    background: inherit;
+    bottom: -5px;
+    left: 18px;
+    display: block;
+    content: '';
+    height: 10px;
+    width: 3px;
+    border-radius: 100%;
 }
