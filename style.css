@@ -11,8 +11,13 @@
 }
 
 .balloon {
-    width: 120px;
-    height: 60px;
-    border: 1px dashed red;
+    position: relative;
     flex-grow: 1;
+    width: 50px;
+    margin: 3px;
+    background: rgb(20,189,34);
+    opacity: .9;
+    border-radius: 50%;
+    height: 50px;
+    cursor: pointer; 
 }
