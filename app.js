@@ -1,4 +1,5 @@
 const container = document.querySelector('.container');
+
 let balloons = [
     'lightsalmon','salmon','red','firebrick',
     'yellow','lemonchiffon','khaki','chocolate',
