@@ -4,8 +4,9 @@ let balloons = [
     'pink','black','red','purple'
 ];
 
-balloons.forEach(function(){
-    content = content + '<div class="balloon"></div>'
+balloons.forEach(function(color, i){
+    content = content + '<div class="balloon"></div>';
+    console.log("Loop"+i,content);
 
 });
 
