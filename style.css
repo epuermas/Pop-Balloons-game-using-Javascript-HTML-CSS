@@ -1,16 +1,30 @@
-body {
-    background: blue;
-}
 .container {
-    background: yellow;
     width: 500px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    margin: auto
 }
 .balloon {
-    height: 70px;
+    height: 100px;
     width: 120px;
     border: 1px dashed red;
     flex-grow: 1;
+    border-radius: 50%;
+    position: relative;
 }
+.balloon:after {
+    position: absolute;
+    background: inherit;
+    bottom: -5px;
+    left: 60px;
+    display: block;
+    content: '';
+    height: 10px;
+    width: 3px;
+    border-radius: 100%;
+    border: 1px solid red;
+}
+.balloon:hover{ animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both; }
+.balloon.popped { visibility: hidden; }
+.balloon.popped:after { visibility: hidden; }
