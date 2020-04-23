@@ -1,5 +1,4 @@
 const container = document.querySelector('.container');
-let content = "";
 let balloons = [
     'lightsalmon','salmon','red','firebrick',
     'yellow','lemonchiffon','khaki',null,
@@ -13,7 +12,8 @@ function popBalloon(pos){
     renderBalloon();
 }
 function renderBalloon(){
-balloons.forEach(function(color, position){
+    let content = "";
+    balloons.forEach(function(color, position){
     console.log("Loop"+position+" "+color,content);
 
     //
